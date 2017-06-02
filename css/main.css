@@ -114,6 +114,31 @@ header{
 }
 
 
+/* ITCH.IO */
+.itchio{
+    background-image: url(../images/itchio.png);
+    height: 33px;
+    width: 113px;
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    /*border: 1px solid red;*/
+    transition: all 1s;
+}
+
+.sidebar > .itchio{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+
+.itchio a{
+    display: block;
+    height: 33px;
+    width: 113px;
+}
+
 /* MAIN NAVIGATION */
 nav{
     margin-top: 200px;
@@ -342,7 +367,7 @@ main{
     height: 100vh;
     display: block;
     padding-top: 20vh;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 /* ENEMIES */
@@ -609,10 +634,14 @@ main{
     display: block;
     width: 100%;
     text-align: center;
-    margin-top:100px;
+    margin-top: 50px;
     /*border: 1px solid red;*/
 }
 
 .content > .title + p {
     margin-bottom:  25px;
+}
+
+p + br {
+    line-height: 30pt;
 }
