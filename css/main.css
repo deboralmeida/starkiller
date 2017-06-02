@@ -516,7 +516,7 @@ main{
 }
 
 .spread_right{
-    left: 255px;
+    left: 18%;
     -ms-transform: rotate(20deg); /* IE 9 */
     -webkit-transform: rotate(20deg); /* Safari */
     transform: rotate(20deg);
@@ -524,11 +524,11 @@ main{
 
 .shoot_right{
     top: 160px;
-    left: 340px;
+    left: 25%;
 }
 
 .spread_left{
-    left: 255px;
+    left: 20%;
     -ms-transform: rotate(-20deg); /* IE 9 */
     -webkit-transform: rotate(-20deg); /* Safari */
     transform: rotate(-20deg);
@@ -536,7 +536,7 @@ main{
 
 .shoot_left{
     top: 160px;
-    left: 180px;
+    left: 13%;
 }
 
 .friend_anim{
